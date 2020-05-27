@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RedesActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="51dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/instagram_icon" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="63dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="147dp"
+        android:layout_marginLeft="147dp"
+        android:layout_marginTop="38dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/twitter_icon" />
+
+    <TextView
+        android:id="@+id/seguidoresTwitter"
+        android:layout_width="58dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="42dp"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/seguidoresInstagram"
+        android:gravity="center"
+        android:layout_width="58dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="34dp"
+        app:layout_constraintStart_toEndOf="@+id/seguidoresTwitter"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="42dp"
+        android:text="Seguidores"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="46dp"
+        android:text="Seguidos"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/seguidosTwitter"
+        android:gravity="center"
+        android:layout_width="58dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="46dp"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        app:layout_constraintTop_toBottomOf="@+id/seguidoresTwitter" />
+
+    <TextView
+        android:id="@+id/seguidosInstagram"
+        android:gravity="center"
+        android:layout_width="58dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="46dp"
+        app:layout_constraintStart_toEndOf="@+id/seguidosTwitter"
+        app:layout_constraintTop_toBottomOf="@+id/seguidoresInstagram" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="46dp"
+        android:text="Privacidad"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/privacidadTwitter"
+        android:gravity="center"
+        android:layout_width="58dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="46dp"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/seguidosTwitter" />
+
+    <TextView
+        android:id="@+id/privacidadInstagram"
+        android:gravity="center"
+        android:layout_width="58dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="46dp"
+        app:layout_constraintStart_toEndOf="@+id/privacidadTwitter"
+        app:layout_constraintTop_toBottomOf="@+id/seguidosInstagram" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="46dp"
+        android:text="Verificado"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/verificadoTwitter"
+        android:gravity="center"
+        android:layout_width="58dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="46dp"
+        app:layout_constraintStart_toEndOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/privacidadTwitter" />
+
+    <TextView
+        android:id="@+id/verificadoInstagram"
+        android:gravity="center"
+        android:layout_width="58dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="46dp"
+        app:layout_constraintStart_toEndOf="@+id/verificadoTwitter"
+        app:layout_constraintTop_toBottomOf="@+id/privacidadInstagram" />
+
+    <TextView
+        android:id="@+id/descripcionTwitter"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="36dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarSize="5dp"
+        android:scrollbars="vertical"
+        app:layout_constraintStart_toEndOf="@+id/textView18"
+        app:layout_constraintTop_toBottomOf="@+id/verificadoTwitter" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="36dp"
+        android:text="Descripcion"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <TextView
+        android:id="@+id/descripcionInstagram"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="36dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarSize="5dp"
+        android:scrollbars="vertical"
+        app:layout_constraintStart_toEndOf="@+id/descripcionTwitter"
+        app:layout_constraintTop_toBottomOf="@+id/verificadoInstagram" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:text="Seguidores"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descripcionTwitter" />
+
+    <TextView
+        android:id="@+id/seguidoresTotales"
+        android:layout_width="70dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toEndOf="@+id/textView20"
+        app:layout_constraintTop_toBottomOf="@+id/descripcionTwitter" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="25dp"
+        android:text="Media"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/seguidoresTotales"
+        app:layout_constraintTop_toBottomOf="@+id/descripcionTwitter" />
+
+    <TextView
+        android:id="@+id/seguidoresMedia"
+        android:layout_width="70dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        app:layout_constraintStart_toEndOf="@+id/textView22"
+        app:layout_constraintTop_toBottomOf="@+id/descripcionInstagram" />
+
+    <TextView
+        android:id="@+id/usernameTwitter"
+        android:layout_width="100dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="38dp"
+        android:textColor="#19459A"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/usernameInstagram"
+        android:layout_width="100dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="12dp"
+        android:textColor="#9C27B0"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usernameTwitter" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginLeft="132dp"
+        android:layout_marginTop="16dp"
+        android:onClick="showStats"
+        android:text="Calcular Total"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+</androidx.constraintlayout.widget.ConstraintLayout>
