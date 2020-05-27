@@ -7,6 +7,26 @@ Práctica 3 de la asignatura DS en el curso 19/20
 	- Miguel Muñoz Molina
 - Descripción: La idea es realizar una aplicación multiplataforma, tanto para pc como para android, en el que pasando tu nombre de usuario de twitter e instagram, te muestre estadísticas de ambas redes sociales.
 
+## Memoria de la práctica
+
+Para documentar correctamente esta práctica de cara a su corrección, hemos hecho una memoria en formato pdf que describe de forma más detallada todo el proceso de creación de este software. Se pude consultar la memoria pinchando en el siguiente enlace:
+
+[Memoria Práctica 3 | DS 19/20](./pdf/P3_MemoriaFinal_DS2.pdf)
+
+## Códigos del programa
+
+#### Versión PC
+
+Se puede ver el código de la aplicación a través del siguiente enlace:
+
+[Versión PC Netbeans](./code/PC/TomCat_DS)
+
+#### Versión Android
+
+Se puede ver el código de la aplicación a través del siguiente enlace:
+
+[Versión Móvil AndroidStudio](./code/Android/DS_P3)
+
 ## Logo de la aplicación
 
 Hemos diseñado un logo propio para nuestra aplicación.
@@ -28,23 +48,3 @@ Para su realización hemos usado Android Studio, creando una interfaz gráfica, 
 ![](./img/app_movil_main.jpg)
 
 ![](./img/app_movil_stats.jpg)
-
-## Memoria de la práctica
-
-Para documentar correctamente esta práctica de cara a su corrección, hemos hecho una memoria en formato pdf que describe de forma más detallada todo el proceso de creación de este software. Se pude consultar la memoria pinchando en el siguiente enlace:
-
-[Memoria Práctica 3 | DS 19/20](./pdf/P3_MemoriaFinal_DS2.pdf)
-
-## Códigos del programa
-
-#### Versión PC
-
-Se puede ver el código de la aplicación a través del siguiente enlace:
-
-[Versión PC Netbeans](./code/PC/TomCat_DS)
-
-#### Versión Android
-
-Se puede ver el código de la aplicación a través del siguiente enlace:
-
-[Versión Móvil AndroidStudio](./code/Android/DS_P3)
